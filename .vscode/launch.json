@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServiceApplication<eureka-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.meuexemplo.eurekaservice.EurekaServiceApplication",
+            "projectName": "eureka-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ZuulServiceApplication<zuul-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "coom.meuexemplo.zuulservice.ZuulServiceApplication",
+            "projectName": "zuul-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PessoasMsApplication<pessoas-ms>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.com.teste.primeirorest.PessoasMsApplication",
+            "projectName": "pessoas-ms",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
